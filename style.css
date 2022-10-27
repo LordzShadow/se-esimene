@@ -1,0 +1,61 @@
+body {
+  display: flex;
+  height: 100vh;
+  margin: 0;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(164, 151, 151);
+}
+
+.vasak, .parem {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  align-items: center;
+}
+
+.pealkiri {
+  color: orange;
+  font-weight: 700;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+  font-size: 42px;
+  text-align: center;
+  text-shadow: 2px 4px 5px #888888;
+}
+
+.sisu {
+  color: #4e4e4e;
+  text-align: justify;
+}
+
+.link {
+  margin: 20px 0;
+}
+
+.link a {
+  font-size: 18px;
+  font-weight: 700;
+  color: lightslategray;
+}
+
+.pilt {
+  box-shadow: 2px 5px 10px 3px #888888;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.tabel {
+  border: 1px solid black;
+}
+
+.tabel th {
+  border-bottom: 1px solid gray;
+}
+
+.tabel thead {
+  background-color: orange
+}
